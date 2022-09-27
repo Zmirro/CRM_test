@@ -1,0 +1,22 @@
+.active{
+    transition: 1s ;
+    background-color: #5932EA;
+    color :white !important;
+}
+.common{
+    color: #9197B3;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-left:20px ;
+    .btn{
+        border: 1px black solid;
+        padding: 30px 60px;
+        width: 50%;
+        margin: 10px;
+    }
+}
