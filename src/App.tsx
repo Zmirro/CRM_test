@@ -9,11 +9,12 @@ import Help from "./pages/Help";
 import NF from "./pages/NF";
 import Layout from './components/Layout';
 const App = () => {
+  
   return (
     <div>
       <Routes>
         <Route path="/" element={<Layout/>}>
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="dashboard" element={<Dashboard />} />
           <Route path="products" element={<Products />} />
           <Route path="customers" element={<Customers />} />
           <Route path="income" element={<Income />} />

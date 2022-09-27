@@ -3,6 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import ButtonNav from "./ButtonNav";
 import logo from "../assets/svg/logo.svg";
 import "../scss/Layout.scss";
+
 const Layout = () => {
   return (
     <div>
