@@ -1,8 +1,12 @@
-export interface DashBoardLocal {
-    logoSvgMoney?:string[],
-    title:string[],
-    money:number[],
-    money_name:string[],
-    logoSvgArrow?:string[],
-    procents:number[],
+export interface IDashboardLocal{
+  arrows: {
+      up: string,
+      down: string,
+      overview: string
+  }
+  data: {
+      name: string[],
+      svgElement: string[],
+      money: number[]
+  }
 }
